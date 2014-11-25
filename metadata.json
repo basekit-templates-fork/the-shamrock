@@ -1,8 +1,8 @@
 {
-	"name":"light-bites",
+	"name":"The Shamrock",
 	"thumbnail":"thumbnail.png",
 	"screenshot":"thumbnail.png",
-	"templateType":"menu",
+	"templateType":"pub",
     "tags": {
     "en": ["minimal", "clean", "photography", "vintage", "modern", "dark", "studio", "website", "creative", "elegant", "professional", "unique", "media", "sans-serif"],
     "es": ["minimalista", "limpio", "fotografico", "vintage", "moderno", "oscuro", "estudio", "website", "creativo", "elegante", "profesional", "unico", "comunicacion", "sans-serif"],
@@ -11,13 +11,13 @@
     "colorSwatches":
     {
         "Swatch 1": {
-            "color1":"#fbf9f8",
-            "color2":"#70243f",
-            "color3":"#ef5f5b",
-            "color4":"#70243f",
-            "color5":"#3e2a24",
+            "color1":"#fbfbf8",
+            "color2":"#518f08",
+            "color3":"#1b73b2",
+            "color4":"#425a24",
+            "color5":"#4b584d",
             "color6":"#ffffff",
-            "color7":"#ef5f5b"
+            "color7":"#518f08"
         },
         "Swatch 2": {
             "color1":"#fbf9fa",
@@ -57,9 +57,9 @@
         }
     },
     "fontSwatch": {
-       "title": "Montserrat",
+       "title": "Cabin / Vollkorn",
         "font1": {
-            "font-family": "\"Montserrat\", \"Trebuchet MS\", Helvetica, sans-serif",
+            "font-family": "\"Cabin\", \"Oswald\", Arial, sans-serif",
             "font-size": "32px",
             "font-weight": "400",
             "line-height": "42px",
@@ -67,7 +67,7 @@
             "letter-spacing": "inherit"
         },
         "font2": {
-            "font-family": "\"Montserrat\", \"Trebuchet MS\", Helvetica, sans-serif",
+            "font-family": "\"Cabin\", \"Oswald\", Arial, sans-serif",
             "font-size": "22px",
             "font-weight": "300",
             "line-height": "32px",
@@ -75,7 +75,7 @@
             "letter-spacing": "inherit"
         },
         "font3": {
-            "font-family": "\"Montserrat\", \"Trebuchet MS\", Helvetica, sans-serif",
+            "font-family": "\"Cabin\", \"Oswald\", Arial, sans-serif",
             "font-size": "24px",
             "font-weight": "600",
             "line-height": "34px",
@@ -83,23 +83,23 @@
             "letter-spacing": "inherit"
         },
         "font4": {
-            "font-family": "\"Montserrat\", \"Trebuchet MS\", Helvetica, sans-serif",
-            "font-size": "16px",
+            "font-family": "\"Vollkorn\", Georgia, serif",
+            "font-size": "20px",
             "font-weight": "400",
-            "line-height": "26px",
+            "line-height": "30px",
             "color": "@color-swatch2",
             "letter-spacing": "inherit"
         },
         "font5": {
-            "font-family": "\"Montserrat\", \"Trebuchet MS\", Helvetica, sans-serif",
-            "font-size": "12px",
+            "font-family": "\"Vollkorn\", Georgia, serif",
+            "font-size": "16px",
             "font-weight": "400",
-            "line-height": "22px",
+            "line-height": "26px",
             "color": "@color-swatch5",
             "letter-spacing": "inherit"
         },
         "font6": {
-            "font-family": "\"Montserrat\", \"Trebuchet MS\", Helvetica, sans-serif",
+            "font-family": "\"Vollkorn\", Georgia, serif",
             "font-size": "16px",
             "font-weight": "300",
             "line-height": "26px",
@@ -110,17 +110,17 @@
             "background-color-hover": "@color-swatch1"
          },
         "font7": {
-            "font-family": "\"Montserrat\", \"Trebuchet MS\", Helvetica, sans-serif",
-            "font-size": "14px",
+            "font-family": "\"Cabin\", \"Oswald\", Arial, sans-serif",
+            "font-size": "16px",
             "font-weight": "normal",
-            "line-height": "24px",
+            "line-height": "26px",
             "color": "@color-swatch1",
             "letter-spacing": "inherit",
             "background-color": "@color-swatch2",
             "background-color-hover": "darken(@color-swatch2,10%)"
         },
         "font8": {
-            "font-family": "\"Montserrat\", \"Trebuchet MS\", Helvetica, sans-serif",
+            "font-family": "\"Cabin\", \"Oswald\", Arial, sans-serif",
             "font-size": "42px",
             "font-weight": "500",
             "line-height": "52px",
@@ -128,7 +128,7 @@
             "letter-spacing": "inherit"
         },
         "font9": {
-            "font-family": "\"Montserrat\", \"Trebuchet MS\", Helvetica, sans-serif",
+            "font-family": "\"Vollkorn\", Georgia, serif",
             "font-size": "22px",
             "font-weight": "500",
             "line-height": "32px",
@@ -136,10 +136,10 @@
             "letter-spacing": "inherit"
         },
         "font10": {
-            "font-family": "\"Montserrat\", \"Trebuchet MS\", Helvetica, sans-serif",
-            "font-size": "26px",
+            "font-family": "\"Cabin\", \"Oswald\", Arial, sans-serif",
+            "font-size": "32px",
             "font-weight": "400",
-            "line-height": "36px",
+            "line-height": "42px",
             "color": "@color-swatch6",
             "letter-spacing": "inherit"
         }
