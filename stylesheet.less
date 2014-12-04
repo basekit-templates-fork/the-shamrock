@@ -210,11 +210,29 @@ a, .widget.twitter ul li a {
 
 
 
-.main-wrap {
+.main-wrap, .widget.feature.bk-tpl-hidden + .main-wrap {
+	background-color: @color-swatch1;
+	float: initial;
+	margin: 0 auto;
+	max-width: 1200px;
+	width: 100%;
+}
+
+.widget.feature + .main-wrap {
 	background-color: @color-swatch1;
 	float: left;
 	margin-left: 25%;
+	max-width: 100%;
 	width: 75%;
+}
+
+.widget.feature {
+	position: fixed;
+ 	height: 100%;
+	width: 25%;
+	.feature-bgimg {
+		height: 100%;
+	}
 }
 
 .template-header,
@@ -264,16 +282,6 @@ hr.line {
 	float: left;
 	width: 100%;
 	display: table;
-}
-
-.template-feature {
-	position: fixed;
-	height: 100%;
-	width: 25%;
-	.widget.feature,
-	.widget.feature .feature-bgimg {
-		height: 100%;
-	}
 }
 
 .template-aside, .widget.logo {
@@ -455,6 +463,13 @@ hr.line {
 		left: 4px;
 		top: 7px;
 		width: 22px;
+	}
+}
+
+.widget.extendednavigation .bk-overlay {
+	@media @tablet {
+		width: 100%;
+		left: 0!important;
 	}
 }
 
@@ -642,7 +657,7 @@ hr.line {
 
 .menu .menu-items li {
 	padding: 5px 0 12px;
-	margin-bottom: 20px;
+	margin:20px 0px;
 	&.menu-item-promoted {
 		padding: 5px 15px 12px;
 	}
@@ -1103,24 +1118,20 @@ button.btn:disabled:hover,
 			max-width: 120px;
 		}
 	}
-	.home .widget.feature .feature-bgimg .content,
-	.widget.feature .feature-bgimg .content,
-	.widget.feature .feature-bgimg {
-		height: 275px;
-	}
 	.widget.feature .feature-bgimg .content {
 		h2 {
 			font-size: bkscale(@font-swatch8-font-size, 0.5);
 			line-height: bkscale(@font-swatch8-line-height, 0.5);
 		}
 		h3 {
-			font-size: bkscale(@font-swatch9-font-size, 0.5);
-			line-height: bkscale(@font-swatch9-line-height, 0.5);
+			font-size: bkscale(@font-swatch9-font-size, 0.7);
+			line-height: bkscale(@font-swatch9-line-height, 0.7);
 			border-top: none;
 		}
 	}
 	.template-header {
 		padding: 10px 20px;
+		min-height:150px;
 	}
 	.template-nav {
 		width: 100%;
@@ -1204,11 +1215,16 @@ button.btn:disabled:hover,
 	.header-sub .profile {
 		float: left;
 		width: 100%;
+		text-align:left;
 	}
-	.template-feature {
+	.widget.feature {
 		display: none;
 	}
-	.main-wrap {
+	.widget.feature + .main-wrap {
+		margin-left: 0;
+		width: 100%;
+	}
+	.main-wrap, .widget.feature.bk-tpl-hidden + .main-wrap {
 		width: 100%;
 		margin-left: 0;
 	}
@@ -1230,7 +1246,10 @@ button.btn:disabled:hover,
 	}
 }
 
-
+.widget.companyname a {
+	font-size: bkscale(@font-swatch10-font-size, 0.9);
+	line-height: bkscale(@font-swatch10-line-height, 0.9);
+}
 
 // ------------------------------------------
 // #Default page sticky footer
