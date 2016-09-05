@@ -1,63 +1,107 @@
 {
-	"name":"The Shamrock",
-	"thumbnail":"thumbnail.png",
-	"screenshot":"thumbnail.png",
-	"templateType":"standard",
+    "name": "The Shamrock",
+    "thumbnail": "thumbnail.png",
+    "screenshot": "the-shamrock-screenshot.jpg",
+    "templateType": "standard",
     "tags": {
-    "en": ["minimal", "clean", "photography", "vintage", "modern", "dark", "studio", "website", "creative", "elegant", "professional", "unique", "media", "sans-serif"],
-    "es": ["minimalista", "limpio", "fotografico", "vintage", "moderno", "oscuro", "estudio", "website", "creativo", "elegante", "profesional", "unico", "comunicacion", "sans-serif"],
-    "br": ["minimalista", "limpo", "fotografia", "vintage", "moderno", "escuro", "estúdio", "website", "criativo", "elegante", "profissional", "único", "mídia", "sans-serif"]
+        "en": [
+            "minimal",
+            "clean",
+            "photography",
+            "vintage",
+            "modern",
+            "dark",
+            "studio",
+            "website",
+            "creative",
+            "elegant",
+            "professional",
+            "unique",
+            "media",
+            "sans-serif"
+        ],
+        "es": [
+            "minimalista",
+            "limpio",
+            "fotografico",
+            "vintage",
+            "moderno",
+            "oscuro",
+            "estudio",
+            "website",
+            "creativo",
+            "elegante",
+            "profesional",
+            "unico",
+            "comunicacion",
+            "sans-serif"
+        ],
+        "br": [
+            "minimalista",
+            "limpo",
+            "fotografia",
+            "vintage",
+            "moderno",
+            "escuro",
+            "est\u00fadio",
+            "website",
+            "criativo",
+            "elegante",
+            "profissional",
+            "\u00fanico",
+            "m\u00eddia",
+            "sans-serif"
+        ]
     },
-    "colorSwatches":
-    {
+    "colorSwatches": {
         "Swatch 1": {
-            "color1":"#fbfbf8",
-            "color2":"#518f08",
-            "color3":"#1b73b2",
-            "color4":"#425a24",
-            "color5":"#4b584d",
-            "color6":"#ffffff",
-            "color7":"#518f08"
+            "color1": "#fbfbf8",
+            "color2": "#518f08",
+            "color3": "#1b73b2",
+            "color4": "#425a24",
+            "color5": "#4b584d",
+            "color6": "#ffffff",
+            "color7": "#518f08"
         },
         "Swatch 2": {
-            "color1":"#fbf9fa",
-            "color2":"#72426e",
-            "color3":"#e377af",
-            "color4":"#72426e",
-            "color5":"#483f42",
-            "color6":"#ffffff",
-            "color7":"#e377af"
+            "color1": "#fbf9fa",
+            "color2": "#72426e",
+            "color3": "#e377af",
+            "color4": "#72426e",
+            "color5": "#483f42",
+            "color6": "#ffffff",
+            "color7": "#e377af"
         },
         "Swatch 3": {
-            "color1":"#f8f9fc",
-            "color2":"#325982",
-            "color3":"#6874f2",
-            "color4":"#325982",
-            "color5":"#363354",
-            "color6":"#ffffff",
-            "color7":"#6874f2"
+            "color1": "#f8f9fc",
+            "color2": "#325982",
+            "color3": "#6874f2",
+            "color4": "#325982",
+            "color5": "#363354",
+            "color6": "#ffffff",
+            "color7": "#6874f2"
         },
         "Swatch 4": {
-            "color1":"#ecefef",
-            "color2":"#2e7d72",
-            "color3":"#61c5e7",
-            "color4":"#2e7d72",
-            "color5":"#2f4251",
-            "color6":"#f2f2f2",
-            "color7":"#61c5e7"
+            "color1": "#ecefef",
+            "color2": "#2e7d72",
+            "color3": "#61c5e7",
+            "color4": "#2e7d72",
+            "color5": "#2f4251",
+            "color6": "#f2f2f2",
+            "color7": "#61c5e7"
         },
         "Swatch 5": {
-            "color1":"#efedec",
-            "color2":"#7d322e",
-            "color3":"#e79d61",
-            "color4":"#7d322e",
-            "color5":"#51452f",
-            "color6":"#f2f2f2",
-            "color7":"#e79d61"
+            "color1": "#efedec",
+            "color2": "#7d322e",
+            "color3": "#e79d61",
+            "color4": "#7d322e",
+            "color5": "#51452f",
+            "color6": "#f2f2f2",
+            "color7": "#e79d61"
         }
     },
     "fontSwatch": {
-       "title": "Cabin / Vollkorn",
+        "title": "Cabin / Vollkorn",
         "font1": {
             "font-family": "\"Cabin\", \"Oswald\", Arial, sans-serif",
             "font-size": "32px",
@@ -108,7 +152,7 @@
             "color-hover": "darken(@color-swatch2, 30%)",
             "background-color": "@color-swatch1",
             "background-color-hover": "@color-swatch1"
-         },
+        },
         "font7": {
             "font-family": "\"Cabin\", \"Oswald\", Arial, sans-serif",
             "font-size": "16px",
